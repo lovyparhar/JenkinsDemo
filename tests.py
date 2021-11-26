@@ -15,7 +15,4 @@ def tester():
 
 
 if __name__ == "__main__":
-    try:
-        tester()
-    except Exception as exc:
-        print(exc)
+    tester()
