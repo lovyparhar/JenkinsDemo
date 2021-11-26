@@ -6,7 +6,7 @@ def tester():
     assert ans == exp, "Test-1 failed."
 
     ans = multiply(4, 6)
-    exp = 25
+    exp = 24
     assert ans == exp, "Test-2 failed."
 
     ans = multiply(9, 9)
